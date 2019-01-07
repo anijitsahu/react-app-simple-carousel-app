@@ -8,7 +8,7 @@ class Content extends Component {
   constructor(props) {
     super(props)
 
-    const TOTAL_NUMBER_OF_IMAGES = 2
+    const TOTAL_NUMBER_OF_IMAGES = 5
     this.state = {
       active: 1,
       total: TOTAL_NUMBER_OF_IMAGES
@@ -41,10 +41,10 @@ class Content extends Component {
   }
 
   render() {
-    let { active } = this.state
+    let { active, total } = this.state
     return (
       <div className="content">
-        <Carousel srcNumber={active} updateImage={this.updateImage} />
+        <Carousel srcNumber={active} total={total} updateImage={this.updateImage} />
       </div>
     );
   }

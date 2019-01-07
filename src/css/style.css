@@ -13,7 +13,7 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
 	html {
 		font-size: 10px;
 	}
@@ -25,7 +25,7 @@ html {
   grid-template-columns: 1fr;
 
   /* margin to make it look good */
-  margin: 5%;
+  margin: 2%;
 }
 
 .title {
@@ -58,6 +58,11 @@ html {
   position: relative;
 }
 
+.carousel-img {
+ width: 700px;
+ height: 350px;
+}
+
 /* all the anchor links */
 a {
   text-decoration: none;
@@ -86,4 +91,12 @@ a {
 
 .arrow-right {
   right: 0;
+}
+
+/* media queries */
+@media screen and (max-width: 500px) {
+  .carousel-img {
+    width: 400px;
+    height: 200px;
+   }
 }
