@@ -1,5 +1,5 @@
-# react-app-simple-hello-world
-A simple Hello World Application using [React JS](https://reactjs.org/docs/getting-started.html), a JavaScript library to make awesome UI by Facebook. 
+# react-app-simple-carousel-app
+A Simple Carousel Application using [React JS](https://reactjs.org/docs/getting-started.html), a JavaScript library to make awesome UI by Facebook. 
 
 This application uses [React JS](https://reactjs.org/docs/getting-started.html) component oriented UI creation paradigm. All components are written in [JSX](https://reactjs.org/docs/jsx-in-depth.html) and ES6 style and are
 combined to get a single build for production purpose using [Webpack 4](https://webpack.js.org/concepts/). 
@@ -12,13 +12,15 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
 
 
 ## Features
-- This is just a basic Hello World program
+- This is just a Simple Carousel program
+- Next image can be seen by clicking `>` button
+- Previous image can be seen clicking `<` button
 
 
 ## Installation
 
-1. Clone the repository using `git clone https://github.com/anijitsahu/react-app-simple-hello-world.git` from `Git Bash / Command Prompt`
-2. Navigate inside the directory by `cd react-app-simple-hello-world`
+1. Clone the repository using `git clone https://github.com/anijitsahu/react-app-simple-carousel-app.git` from `Git Bash / Command Prompt`
+2. Navigate inside the directory by `cd react-app-simple-carousel-app`
 3. Install all the necessary dependecies by using `npm install` (optional)
 4. Navigate to the directory `dist`
 5. Open `index.html` page in a web browser 
@@ -34,6 +36,16 @@ Desktop as well as Mobile version of the screenshots are given side by side.
 <p> Initial screen <br/> 
  <img src="screenshots/desktop 1.png" width="590px" title="initial screen"/>
  <img src="screenshots/mobile 1.png" width="230px" title="initial screen"/> 
+</p>
+
+<p> After clicking the next button <br/> 
+ <img src="screenshots/desktop 2.png" width="590px" title="After clicking the next button screen"/>
+ <img src="screenshots/mobile 2.png" width="230px" title="After clicking the next button screen"/> 
+</p>
+
+<p> Last image <br/> 
+ <img src="screenshots/desktop 3.png" width="590px" title="Last image screen"/>
+ <img src="screenshots/mobile 3.png" width="230px" title="Last image screen"/> 
 </p>
  
 
