@@ -72,9 +72,15 @@ a {
 
   width: 50px;
   color: #fff;
-  background-color: #333;
+  background-color: #ab14ab;
+  opacity: 0.5;
   
   text-align: center;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  opacity: 0.8;
 }
 
 .arrow-right {
