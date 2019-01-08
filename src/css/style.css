@@ -93,6 +93,28 @@ a {
   right: 0;
 }
 
+/* Error related */
+.error-div {
+  display: grid;
+  background-color: #f9dede;
+  color: #c62a2a;
+  
+  width: 300px;
+  padding: 1em;
+  
+  font-size: 0.7em;
+  margin: 0 auto;  
+}
+
+.error-title {
+  font-weight: bold;  
+}
+
+.error-desc {
+  white-space: pre-line;
+  font-size: 0.9em;
+}
+
 /* media queries */
 @media screen and (max-width: 500px) {
   .carousel-img {
