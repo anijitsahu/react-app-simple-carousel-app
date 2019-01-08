@@ -16,7 +16,7 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
 - Next image can be seen by clicking `>` button
   - Next button will not be shown when the last image is reached
 - Previous image can be seen clicking `<` button
-  - While loading the first image previous button will not be there for obvious reason
+  - While loading the first image previous button will not be there for obvious reason 
   
  <br>
  <ul>
