@@ -6,7 +6,7 @@ combined to get a single build for production purpose using [Webpack 4](https://
 
 ES6 `module` creation along with `import /export` is used. [Babel](https://babeljs.io/docs/en/babel-preset-react) is used to *transpile* all [JSX](https://reactjs.org/docs/jsx-in-depth.html) code to vanilla JavaScript code. To install all the dependecies `npm` is used.
 
-For UI creation [HTML5](https://www.w3schools.com/html/html5_intro.asp) and [CSS3](https://www.w3schools.com/css/) are used. [Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout), the new feature of [CSS3](https://www.w3schools.com/css/) is used for layout creation purpose. [Fontawesome](https://fontawesome.com/) icons are used
+For UI creation [HTML5](https://www.w3schools.com/html/html5_intro.asp) and [CSS3](https://www.w3schools.com/css/) are used. [Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout), the new feature of [CSS3](https://www.w3schools.com/css/) is used for layout creation purpose. Some of the [Fontawesome](https://fontawesome.com/) icons are added for aesthetic purpose.
 
 This is a *responsive web application* for viewing in both Mobile and Desktop.
 
@@ -18,11 +18,13 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
 - Previous image can be seen clicking `<` button
   - While loading the first image previous button will not be there for obvious reason
   
- <br> 
-- This follows responsive web design paradigm
-- Mobile view is supported
-- No database / storage is there. So no changes are *persistant*
-- Images are served from the local file system. No *external* URLs are there
+ <br>
+ <ul>
+  <li> This follows responsive web design paradigm </li>
+  <li> Mobile view is supported </li>
+  <li> No database / storage is there. So no changes are <i>persistant</i> </li>
+  <li> Images are served from the local file system. No *external* URLs are there </li>
+ </ul> 
 
 
 ## Installation
