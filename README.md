@@ -2,7 +2,7 @@
 A Simple Carousel Application using [React JS](https://reactjs.org/docs/getting-started.html), a JavaScript library to make awesome UI by Facebook and [HTML5](https://www.w3schools.com/html/html5_intro.asp), [CSS3](https://www.w3schools.com/css/).
 
 This application uses [React JS](https://reactjs.org/docs/getting-started.html) component oriented UI creation paradigm. All components are written in [JSX](https://reactjs.org/docs/jsx-in-depth.html) and ES6 style and are
-combined to get a single build for production purpose using [Webpack 4](https://webpack.js.org/concepts/). 
+combined to get a single build for production purpose using [Webpack 4](https://webpack.js.org/concepts/). For Error Tracking [ComponentDiDCatch](https://reactjs.org/blog/2017/07/26/error-handling-in-react-16.html), the new feature of [React JS](https://reactjs.org/docs/getting-started.html) is added
 
 ES6 `module` creation along with `import /export` is used. [Babel](https://babeljs.io/docs/en/babel-preset-react) is used to *transpile* all [JSX](https://reactjs.org/docs/jsx-in-depth.html) code to vanilla JavaScript code. To install all the dependecies `npm` is used.
 
