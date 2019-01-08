@@ -23,7 +23,7 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
   <li> This follows responsive web design paradigm </li>
   <li> Mobile view is supported </li>
   <li> No database / storage is there. So no changes are <i>persistant</i> </li>
-  <li> Images are served from the local file system. No *external* URLs are there </li>
+  <li> Images are served from the local file system. No <i>external</i> URLs are there </li>
  </ul> 
 
 
