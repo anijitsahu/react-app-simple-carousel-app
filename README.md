@@ -45,17 +45,17 @@ Desktop as well as Mobile version of the screenshots are given side by side.
 
 <p> Initial screen <br/> 
  <img src="screenshots/desktop 1.png" width="590px" title="initial screen"/>
- <img src="screenshots/mobile 1.png" width="230px" title="initial screen"/> 
+ <img src="screenshots/mobile 1.png" width="200px" title="initial screen"/> 
 </p>
 
 <p> After clicking the next button <br/> 
  <img src="screenshots/desktop 2.png" width="590px" title="After clicking the next button screen"/>
- <img src="screenshots/mobile 2.png" width="230px" title="After clicking the next button screen"/> 
+ <img src="screenshots/mobile 2.png" width="200px" title="After clicking the next button screen"/> 
 </p>
 
 <p> Last image <br/> 
  <img src="screenshots/desktop 3.png" width="590px" title="Last image screen"/>
- <img src="screenshots/mobile 3.png" width="230px" title="Last image screen"/> 
+ <img src="screenshots/mobile 3.png" width="200px" title="Last image screen"/> 
 </p>
  
 
