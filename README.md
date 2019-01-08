@@ -1,12 +1,12 @@
 # react-app-simple-carousel-app
-A Simple Carousel Application using [React JS](https://reactjs.org/docs/getting-started.html), a JavaScript library to make awesome UI by Facebook. 
+A Simple Carousel Application using [React JS](https://reactjs.org/docs/getting-started.html), a JavaScript library to make awesome UI by Facebook and [HTML5](https://www.w3schools.com/html/html5_intro.asp), [CSS3](https://www.w3schools.com/css/)
 
 This application uses [React JS](https://reactjs.org/docs/getting-started.html) component oriented UI creation paradigm. All components are written in [JSX](https://reactjs.org/docs/jsx-in-depth.html) and ES6 style and are
 combined to get a single build for production purpose using [Webpack 4](https://webpack.js.org/concepts/). 
 
 ES6 `module` creation along with `import /export` is used. [Babel](https://babeljs.io/docs/en/babel-preset-react) is used to *transpile* all [JSX](https://reactjs.org/docs/jsx-in-depth.html) code to vanilla JavaScript code. To install all the dependecies `npm` is used.
 
-For UI creation [HTML5](https://www.w3schools.com/html/html5_intro.asp) and [CSS3](https://www.w3schools.com/css/) are used. [Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout), the new feature of [CSS3](https://www.w3schools.com/css/) is used for layout creation purpose.
+For UI creation [HTML5](https://www.w3schools.com/html/html5_intro.asp) and [CSS3](https://www.w3schools.com/css/) are used. [Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout), the new feature of [CSS3](https://www.w3schools.com/css/) is used for layout creation purpose. [Fontawesome](https://fontawesome.com/) icons are used
 
 This is a *responsive web application* for viewing in both Mobile and Desktop.
 
@@ -14,7 +14,13 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
 ## Features
 - This is just a Simple Carousel program
 - Next image can be seen by clicking `>` button
+  - Next button will not be shown when the last image is reached
 - Previous image can be seen clicking `<` button
+  - While loading the first image previous button will not be there for obvious reason
+- This follows responsive web design paradigm
+- Mobile view is supported
+- No database / storage is there. So no changes are *persistant*
+- Images are served from the local file system. No *external* URLs are there
 
 
 ## Installation
