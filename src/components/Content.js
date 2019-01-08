@@ -22,20 +22,18 @@ class Content extends Component {
     event.persist()
     let { id } = event.target
     let { active, total } = this.state
-    console.log('code reached...', id)
+    console.log('button clicked...', id)
 
     if (id == "left") {
 
       active = (active > 1) ? active - 1 : 1
       this.setState({ active }, () => {
-        console.log('Upadated State', this.state)
+        // console.log('Upadated State', this.state)
       })
     } else if (id == "right") {
       active = (active < total) ? active + 1 : total
 
-      this.setState({ active }, () => {
-        console.log('Upadated State', this.state)
-      })
+      this.setState({ active })
     }
 
   }

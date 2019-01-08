@@ -14,9 +14,9 @@ html {
 }
 
 @media screen and (max-width: 500px) {
-	html {
-		font-size: 10px;
-	}
+  html {
+    font-size: 10px;
+  }
 }
 
 .container {
@@ -59,8 +59,8 @@ html {
 }
 
 .carousel-img {
- width: 700px;
- height: 350px;
+  width: calc(75vw - 50px);
+  height: calc(80vh - 50px);
 }
 
 /* all the anchor links */
@@ -71,7 +71,7 @@ a {
 .arrow {
   align-self: center;
   padding: 1em;
-  
+
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -80,7 +80,7 @@ a {
   color: #fff;
   background-color: #ab14ab;
   opacity: 0.5;
-  
+
   text-align: center;
 }
 
@@ -96,7 +96,11 @@ a {
 /* media queries */
 @media screen and (max-width: 500px) {
   .carousel-img {
-    width: 300px;
-    height: 150px;
-   }
+    width: calc(100vw - 50px);
+    height: calc(50vh - 50px);
+  }
+
+  .arrow {
+    width: 30px;
+  }
 }
