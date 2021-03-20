@@ -1,9 +1,8 @@
 // Components
 import Navigation from './Navigation'
 
-const Carousel = (props) => {
+const Carousel = ({ updateImage, srcNumber, total }) => {
 	const src = `images/${props.srcNumber}.jpg`
-	const { updateImage, srcNumber, total } = props
 
 	return (
 		<div className="carousel">
