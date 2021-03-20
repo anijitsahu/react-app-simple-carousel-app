@@ -1,10 +1,8 @@
-// dependencies
-import React from 'react';
+// Navigation component
+export default (props) => {
 
-const Navigation = (props) => {
-
-	let { updateImage, position, srcNumber, total } = props
-	let classStyle = (position == "left") ? "fas fa-less-than arrow" : "fas fa-greater-than arrow arrow-right"
+	const { updateImage, position, srcNumber, total } = props
+	const classStyle = (position == "left") ? "fas fa-less-than arrow" : "fas fa-greater-than arrow arrow-right"
 
 	return (
 		<i id={position} className={classStyle} onClick={updateImage}></i>
