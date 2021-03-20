@@ -1,5 +1,5 @@
 // dependencies
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 // Components
 import Carousel from './carousel/Carousel'
