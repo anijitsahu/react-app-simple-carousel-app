@@ -37,13 +37,13 @@ This is a *responsive web application* for viewing in both Mobile and Desktop.
 
 Clone the repository:
 ```
-git clone https://github.com/anijitsahu/react-app-simple-carousel-app.git` 
+git clone https://github.com/anijitsahu/react-app-simple-carousel-app.git 
 ```
 Navigate inside the directory:
 ```
 cd react-app-simple-carousel-app/dist
 ```
-Open `index.html` page in a web browser 
+Open `index.html` page in a web browser and have fun with the carousel
  
 *tested with <img src="screenshots/chrome.png" width="20px" title="Google Chrome">[Google Chrome 89](https://www.google.com/chrome/) and <img src="screenshots/firefox.png" width="25px" title="Firefox Developer edition">[Mozilla Firefox 86](https://www.mozilla.org/en-US/firefox/new/)*  
 
