@@ -42,8 +42,8 @@ html {
 }
 
 .title {
-  background-color: #ab14ab;
-  color: #fff;
+  background-color: var(--light-purple);
+  color: var(--lighter-grey);
   padding: 1em;
   grid-row: 1;
 }
@@ -101,28 +101,6 @@ a {
 
 .arrow-right {
   right: 0;
-}
-
-/* Error related */
-.error-div {
-  display: grid;
-  background-color: var(--lighter-grey);
-  color: var(--light-red);
-  
-  width: 300px;
-  padding: 1em;
-  
-  font-size: 0.7em;
-  margin: 0 auto;  
-}
-
-.error-title {
-  font-weight: bold;  
-}
-
-.error-desc {
-  white-space: pre-line;
-  font-size: 0.9em;
 }
 
 /* media queries */
